@@ -1,3 +1,3 @@
 Then("I'am on the home page") do
-  visit 'http://en.wikipedia.org'
+  visit root_path
 end

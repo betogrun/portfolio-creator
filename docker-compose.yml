@@ -16,8 +16,8 @@ services:
     volumes:
       - '.:/portfolio'
       - 'box:/box'
-    stdin_open: true
-    tty: true
+    #stdin_open: true
+    #tty: true
 
   box:
     image: busybox
