@@ -22,8 +22,8 @@ services:
       - TEST_APP_HOST=test
       - TEST_PORT=3000
       - RAILS_ENV=test
-    stdin_open: true
-    tty: true
+    #stdin_open: true
+    #tty: true
 
 
   selenium:
